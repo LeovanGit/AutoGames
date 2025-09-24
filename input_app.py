@@ -10,8 +10,8 @@ bRunScript = False
 exitAppButton = 'q' # terminate application on this key
 toggleRunScriptButton = 'r' # run and stop script on this key
 
-#pathToScriptCommands = 'presets/roblox_climb_and_jump.py' # <== PASTE HERE YOUR PRESET FILE WITH COMMANDS
-pathToScriptCommands = 'presets/mouse_debug.py'
+pathToScriptCommands = 'presets/roblox_climb_and_jump.py' # <== PASTE HERE YOUR PRESET FILE WITH COMMANDS
+#pathToScriptCommands = 'presets/mouse_debug.py'
 scriptCommands = ''
 
 def HandleKeyPress(event):

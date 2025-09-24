@@ -98,8 +98,8 @@ def MousePrintPosition():
     print(autoit.mouse_get_pos())
 
 
-def MouseMove(x, y):
-    autoit.mouse_move(x, y)
+def MouseMove(x, y, speed=5):
+    autoit.mouse_move(x, y, speed)
 
 
 # 'right', 'left', 'middle'
